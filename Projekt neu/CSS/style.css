@@ -1,0 +1,74 @@
+body {
+    color: #111; 
+   
+}
+h1 {
+    font-size: 2rem;
+    font-weight: normal; 
+    text-align: center;
+    padding: 2rem;
+    margin: 0;
+}
+h2 {
+    padding: 1rem; 
+}
+
+h3 {
+    padding: 1rem;
+}
+
+nav ul{
+    display: flex;
+    list-style: none; 
+    background-color: grey; 
+    padding: 2rem; 
+}
+nav a{
+    color: black;
+    text-decoration: none; 
+    display: block;
+    padding: 0.8rem;
+}
+
+.Bild1 {
+    float: left;
+    margin-right: 20px;
+    margin-left: 20px; 
+}
+
+.Book {
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+.Book {
+    width: 420px;  
+    height: 260px;
+    box-shadow: 4px 4px 4px 4px grey
+}
+.Titel {
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+img {
+    max-width: 100%;
+    height: auto; 
+}
+footer {
+padding: 1rem; 
+margin-top: 1rem;
+
+}
+.customheader {
+    height: 80vh;
+    overflow: hidden;
+    position: relative;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+.background-bookmagic {
+    background-image: url('../Bilder/tee-japan.jpg');
+}
